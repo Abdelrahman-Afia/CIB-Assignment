@@ -1,0 +1,14 @@
+.menu-tap-titles {
+  color: #fff;
+  font-family: Arial;
+  font-size: 14.9px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 14px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  gap: 50px;
+}
