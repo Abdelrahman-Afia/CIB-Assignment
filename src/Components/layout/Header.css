@@ -1,2 +1,70 @@
+p {
+  margin: 0;
+  padding: 0;
+}
+
 .header {
+  position: relative;
+  width: 100%;
+}
+
+.cib-banner {
+  width: 100%;
+  height: auto;
+}
+
+.hero-details {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  text-align: left;
+  padding-left: 100px;
+  z-index: 1;
+}
+
+.cib-hero-title {
+  color: #fff;
+  font-family: Arial;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.cib-hero-subtitle-div {
+  margin-bottom: 30px;
+}
+
+.cib-hero-subtitle {
+  color: #fff;
+  font-family: Arial;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  text-align: left;
+}
+
+.cib-hero-subtitle-div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.cib-hero-subtitle {
+  color: #fff;
+  font-family: Arial;
+  font-size: 23.1px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 36px;
+}
+
+.hero-details {
+  width: 432.5px;
+  height: 249px;
+  gap: 20px;
 }
